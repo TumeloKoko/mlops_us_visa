@@ -1,0 +1,1 @@
+conda create --name "Py-UsVisa" python=3.8.* -y -q && source ~/.zshrc && conda init zsh && conda activate Py-UsVisa && pip install -U pip pip-tools

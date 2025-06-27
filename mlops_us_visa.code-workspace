@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"jupyter.interactiveWindow.textEditor.executeSelection": true,
+		"editor.quickSuggestions": {
+			"strings": "on"
+		},
+		"python.analysis.autoImportCompletions": false,
+		"python.analysis.addHoverSummaries": true,
+		"python.analysis.completeFunctionParens": true,
+		"python.languageServer": "Pylance",
+		"intellicodeCompletions.runAlongsideCopilot": false,
+		"copilot.chat.enabledLanguages": [
+			"-python"
+		],
+		"github.copilot.enable": {
+			"*": false,
+			"plaintext": false,
+			"markdown": false,
+			"scminput": false,
+			".py": false
+		}
+	}
+}
