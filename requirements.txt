@@ -43,6 +43,8 @@ decorator==5.2.1
     # via ipython
 dill==0.4.0
     # via -r requirements.in
+dotenv
+
 dnspython==2.6.1
     # via pymongo
 evidently==0.2.8

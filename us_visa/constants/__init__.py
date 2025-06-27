@@ -2,14 +2,12 @@ import os
 from pathlib import Path
 # from from_root import from_root
 from datetime import date
-# from dotenv import load_dotenv
+
 
 DATABASE_NAME = "US_VISA"
 
 COLLECTION = "visa_data"
 
-# env_path = Path("../../")/".env.local"
-# load_dotenv(dotenv_path=env_path)
 
 MONGODB_URL_KEY = os.environ.get("MONGODB_URL") 
 
